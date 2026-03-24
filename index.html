@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Johnny Albertson — Real Estate, Veteran Advocacy & Motivational Speaker</title>
+  <meta name="description" content="Real estate investor, accredited VA claims agent, and motivational speaker. Owner of Invest Up Realty, founder of Veteran Up. Helping people build, heal, and thrive.">
+  <meta name="keywords" content="Johnny Albertson, real estate investor, VA claims agent, motivational speaker, Invest Up Realty, Veteran Up, veteran advocacy, real estate investing">
+  <meta name="author" content="Johnny Albertson">
+  <link rel="canonical" href="https://johnnyalbertson.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Johnny Albertson — Real Estate, Veteran Advocacy & Motivational Speaker">
+  <meta property="og:description" content="Real estate investor, accredited VA claims agent, and motivational speaker. Owner of Invest Up Realty, founder of Veteran Up. Helping people build, heal, and thrive.">
+  <meta property="og:image" content="https://johnnyalbertson.com/hero-johnny-web.jpg">
+  <meta property="og:url" content="https://johnnyalbertson.com/">
+  <meta property="og:site_name" content="Johnny Albertson">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Johnny Albertson — Real Estate, Veteran Advocacy & Motivational Speaker">
+  <meta name="twitter:description" content="Real estate investor, accredited VA claims agent, and motivational speaker. Helping people build, heal, and thrive.">
+  <meta name="twitter:image" content="https://johnnyalbertson.com/hero-johnny-web.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js" defer></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-home">
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress"></div>
+
+  <!-- Page Transition -->
+  <div class="page-transition">
+    <div class="page-transition__panel"></div>
+    <div class="page-transition__panel"></div>
+    <div class="page-transition__panel"></div>
+  </div>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__inner">
+      <div class="preloader__line"></div>
+      <span class="preloader__text">Johnny Albertson</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <a href="index.html" class="nav__logo-text">JA</a>
+    </div>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+      <span class="nav__toggle-line"></span>
+      <span class="nav__toggle-line"></span>
+    </button>
+    <div class="nav__menu" id="navMenu">
+      <a href="index.html" class="nav__link nav__link--active">Home</a>
+      <a href="story.html" class="nav__link">My Story</a>
+      <a href="results.html" class="nav__link">Results</a>
+      <a href="work-with-me.html" class="nav__link">Work With Me</a>
+    </div>
+  </nav>
+
+  <!-- ============================================ -->
+  <!-- HERO SECTION -->
+  <!-- ============================================ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__bg-gradient"></div>
+      <div class="hero__grain"></div>
+    </div>
+
+    <div class="hero__container">
+      <div class="hero__content">
+        <div class="hero__label">
+          <span class="hero__label-line"></span>
+          <span class="hero__label-text">Real Estate &bull; Veteran Advocate &bull; Speaker</span>
+        </div>
+        <h1 class="hero__title">
+          <span class="hero__title-line"><span class="hero__title-word">Johnny</span></span>
+          <span class="hero__title-line"><span class="hero__title-word">Albertson</span></span>
+        </h1>
+        <p class="hero__sub">
+          I invest in real estate, fight for veterans, and help people
+          thrive through the battles life throws at them.
+        </p>
+
+        <!-- Path Selection -->
+        <div class="hero__paths">
+          <p class="hero__paths-heading">What brings you here?</p>
+          <div class="hero__paths-grid">
+            <a href="work-with-me.html#real-estate" class="hero__path">
+              <div class="hero__path-icon">
+                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M6 42V18L24 6L42 18V42H28V30H20V42H6Z"/>
+                  <circle cx="24" cy="24" r="4"/>
+                </svg>
+              </div>
+              <span class="hero__path-label">Real Estate</span>
+              <span class="hero__path-desc">Investing, loans & brokerage</span>
+            </a>
+            <a href="work-with-me.html#veterans" class="hero__path">
+              <div class="hero__path-icon">
+                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M24 4L30 16H42L32 24L36 38L24 30L12 38L16 24L6 16H18L24 4Z"/>
+                </svg>
+              </div>
+              <span class="hero__path-label">Veterans</span>
+              <span class="hero__path-desc">VA claims & peer support</span>
+            </a>
+            <a href="work-with-me.html#speaking" class="hero__path">
+              <div class="hero__path-icon">
+                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="24" cy="14" r="8"/>
+                  <path d="M12 42V36c0-6 5-10 12-10s12 4 12 10v6"/>
+                  <path d="M16 14h16" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <span class="hero__path-label">Speaking</span>
+              <span class="hero__path-desc">Thriving through battles</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Direct Contact -->
+        <div class="hero__contact">
+          <p class="hero__contact-title">Reach Out Directly</p>
+          <div class="hero__contact-links">
+            <a href="tel:+19106166111" class="hero__contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Call
+            </a>
+            <a href="sms:+19106166111?body=Hey%20Johnny%2C%20I%20found%20your%20site%20and%20would%20love%20to%20connect." class="hero__contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+              Text
+            </a>
+            <a href="mailto:johnny@johnnyalbertson.com?subject=Hey%20Johnny&body=Hey%20Johnny%2C%20I%20found%20your%20site%20and%20would%20love%20to%20connect." class="hero__contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__image">
+        <div class="hero__image-frame">
+          <img src="hero-johnny-web.jpg" alt="Johnny Albertson — Veteran, Investor, Broker, Educator">
+        </div>
+        <div class="hero__image-accent"></div>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+      <span class="hero__scroll-text">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- INTRO — "WHO IS JOHNNY ALBERTSON?" -->
+  <!-- ============================================ -->
+  <section class="intro">
+    <div class="intro__inner">
+      <span class="section-label">The Short Version</span>
+      <p class="intro__text">
+        Veteran. Husband. Father. A man who fought through a life-threatening autoimmune disease
+        &mdash; with his wife Tiffany by his side as his rock &mdash;
+        and came out the other side with a mission: invest in real estate that builds up
+        communities, advocate for the veterans who served alongside him, and help people
+        thrive through the battles life throws their way.
+      </p>
+      <a href="story.html" class="intro__link">
+        <span>Read My Full Story</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12H19M12 5L19 12L12 19"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- STATS BAR -->
+  <!-- ============================================ -->
+  <section class="stats-bar">
+    <div class="stats-bar__inner">
+      <div class="stats-bar__item">
+        <span class="stats-bar__number" data-count="150">0</span>
+        <span class="stats-bar__suffix">+</span>
+        <span class="stats-bar__label">Families Housed</span>
+      </div>
+      <div class="stats-bar__item">
+        <span class="stats-bar__number" data-count="12">0</span>
+        <span class="stats-bar__suffix"></span>
+        <span class="stats-bar__label">Neighborhoods</span>
+      </div>
+      <div class="stats-bar__item">
+        <span class="stats-bar__number" data-count="98">0</span>
+        <span class="stats-bar__suffix">%</span>
+        <span class="stats-bar__label">Partners Who Came Back</span>
+      </div>
+      <div class="stats-bar__item">
+        <span class="stats-bar__number" data-count="40">0</span>
+        <span class="stats-bar__suffix">M+</span>
+        <span class="stats-bar__label">Invested</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- PATH CARDS -->
+  <!-- ============================================ -->
+  <section class="paths">
+    <div class="paths__header">
+      <span class="section-label">How I Can Help</span>
+      <h2 class="paths__title">What Are You Looking For?</h2>
+      <p class="paths__sub">Three ways we can work together. Pick what fits.</p>
+    </div>
+    <div class="paths__grid">
+      <a href="work-with-me.html#real-estate" class="paths__card">
+        <div class="paths__card-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M6 42V18L24 6L42 18V42H28V30H20V42H6Z"/>
+            <path d="M18 18H30" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="paths__card-title">Real Estate</h3>
+        <p class="paths__card-text">
+          Investing, hard money loans, consulting, subsidized housing, and a
+          full-service brokerage that puts relationships over profit.
+        </p>
+        <span class="paths__card-cta">
+          Learn More
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12H19M12 5L19 12L12 19"/></svg>
+        </span>
+      </a>
+
+      <a href="work-with-me.html#veterans" class="paths__card">
+        <div class="paths__card-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M24 4L30 16H42L32 24L36 38L24 30L12 38L16 24L6 16H18L24 4Z"/>
+          </svg>
+        </div>
+        <h3 class="paths__card-title">Veteran Advocacy</h3>
+        <p class="paths__card-text">
+          Accredited VA claims agent, peer support specialist, and founder
+          of Veteran Up. Fighting for the people who fought for us.
+        </p>
+        <span class="paths__card-cta">
+          Get Support
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12H19M12 5L19 12L12 19"/></svg>
+        </span>
+      </a>
+
+      <a href="work-with-me.html#speaking" class="paths__card">
+        <div class="paths__card-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="24" cy="14" r="8"/>
+            <path d="M12 42V36c0-6 5-10 12-10s12 4 12 10v6"/>
+            <path d="M16 14h16" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="paths__card-title">Motivational Speaking</h3>
+        <p class="paths__card-text">
+          Helping people thrive through battles &mdash; obesity, combat PTSD,
+          chronic disease, business stress, and being the best dad you can be.
+        </p>
+        <span class="paths__card-cta">
+          Book Johnny
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12H19M12 5L19 12L12 19"/></svg>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- TESTIMONIAL SNIPPET -->
+  <!-- ============================================ -->
+  <section class="testimonial-snippet">
+    <div class="testimonial-snippet__inner">
+      <svg class="testimonial-snippet__quote-icon" viewBox="0 0 48 48" fill="currentColor">
+        <path d="M14 28c-3.3 0-6-2.7-6-6 0-6.6 5.4-12 12-12v6c-3.3 0-6 2.7-6 6h6v12H8V28h6zm20 0c-3.3 0-6-2.7-6-6 0-6.6 5.4-12 12-12v6c-3.3 0-6 2.7-6 6h6v12H28V28h6z"/>
+      </svg>
+      <blockquote class="testimonial-snippet__text">
+        "I've done deals with a lot of people. Johnny's different. He actually cares
+        about the places he puts money into, and it shows in the results. I keep
+        coming back because he does what he says he's going to do."
+      </blockquote>
+      <cite>
+        <span class="testimonial-snippet__author">Investment Partner<span class="testimonial-snippet__role"> — Real Estate Portfolio Manager</span></span>
+      </cite>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- CTA: SEE RESULTS -->
+  <!-- ============================================ -->
+  <div class="strategic-cta strategic-cta--dark">
+    <div class="strategic-cta__inner">
+      <span class="strategic-cta__kicker">The Proof</span>
+      <h2 class="strategic-cta__headline">Talk Is Cheap &mdash; Here's What It Actually Looks Like</h2>
+      <p class="strategic-cta__desc">
+        Real projects, real neighborhoods, real families.
+        Here's what happens when you invest this way.
+      </p>
+      <a href="results.html" class="strategic-cta__btn">
+        <span>See the Results</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12H19M12 5L19 12L12 19"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- ============================================ -->
+  <!-- FOOTER -->
+  <!-- ============================================ -->
+  <footer class="footer" id="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <span class="footer__logo">Johnny Albertson</span>
+        <p class="footer__tagline">Real estate investor. Veteran advocate. Motivational speaker. Husband &amp; dad.</p>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4 class="footer__col-title">Navigate</h4>
+          <a href="story.html" class="footer__link">My Story</a>
+          <a href="results.html" class="footer__link">Results</a>
+          <a href="work-with-me.html" class="footer__link">Work With Me</a>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Connect</h4>
+          <a href="tel:+19106166111" class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            (910) 616-6111
+          </a>
+          <a href="mailto:johnny@johnnyalbertson.com" class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg>
+            johnny@johnnyalbertson.com
+          </a>
+          <a href="#" class="footer__link">YouTube</a>
+          <a href="#" class="footer__link">LinkedIn</a>
+          <a href="#" class="footer__link">Instagram</a>
+        </div>
+      </div>
+
+      <div class="footer__newsletter">
+        <h4 class="footer__col-title">Reach Out</h4>
+        <p class="footer__newsletter-text">Call, text, or email — I always respond.</p>
+        <div class="footer__direct-links">
+          <a href="tel:+19106166111" class="footer__direct-link">Call (910) 616-6111</a>
+          <a href="sms:+19106166111" class="footer__direct-link">Text Me</a>
+          <a href="mailto:johnny@johnnyalbertson.com" class="footer__direct-link">johnny@johnnyalbertson.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="footer__final-quote">
+        <p>"Do good work. Treat people right. That's it."</p>
+      </div>
+      <div class="footer__legal">
+        <span>&copy; 2026 Johnny Albertson. All rights reserved.</span>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky CTA -->
+  <div class="sticky-cta">
+    <span class="sticky-cta__text">Ready to get started?</span>
+    <a href="work-with-me.html" class="sticky-cta__btn">
+      Work With Me
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12H19M12 5L19 12L12 19"/></svg>
+    </a>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 19V5M5 12L12 5L19 12"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
